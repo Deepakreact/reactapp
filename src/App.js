@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React,{useState} from 'react'
 import Modal from 'react-modal'
@@ -25,10 +25,10 @@ function App() {
     
         <button onClick={()=>setClick(!click)} className="modal-close">x</button>
         <ul className="modal-ul">
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
+        <a href="main page">Home</a>
+        <a href="main page">Home</a>
+        <a href="main page">Home</a>
+        <a href="main page">Home</a>
         
         
         </ul>
