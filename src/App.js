@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          this is the new app 
+          this is the new app  we want to change
         </p>
         <a
           className="App-link"
