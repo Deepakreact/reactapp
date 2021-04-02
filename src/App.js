@@ -3,17 +3,23 @@ import './App.css';
 import React,{useState} from 'react'
 import Modal from 'react-modal'
 import Zoom from 'react-reveal/Zoom'
-import Slider from './Componants/Slider';
-import {products} from './data/data'
-import About from './Componants/About';
-import Gallery from './Componants/Gallery';
-import Videos from './Componants/Videos';
+import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
+
+
+import HomePage from './Componants/HomePage';
 import MenuIcon from '@material-ui/icons/Menu';
+import AboutPage from './Componants/AboutPage';
+import GalleryPage from './Componants/GalleryPage';
+import VideoPage from './Componants/VideoPage';
+import ContactPage from './Componants/ContactPage';
+import ServicePage from './Componants/ServicePage';
+
 
 
 function App() {
   const [click, setClick] = useState(false)
   return (
+    <Router>
     <div className="App">
     <header className="header">
     <div className="left-side">
@@ -27,12 +33,12 @@ function App() {
     </div> 
     <div className="right-side">
     <ul className="site-links">
-    <a href="/Home">Home</a>
-    <a href="/About Us">About Us</a>
-    <a href="./Services">Services</a>
-    <a href="./Gallery">Gallery</a>
-    <a href="./Videos">Videos</a>
-    <a href="./Contact Us">Contact Us</a>
+    <Link to="/">Home</Link>
+    <Link to="/About">About Us</Link>
+    <Link to="/Service">Services</Link>
+    <Link to="/Gallery">Gallery</Link>
+    <Link to="/Videos">Videos</Link>
+    <Link to="/Contact">Contact Us</Link>
     
     
     </ul>
@@ -70,11 +76,12 @@ function App() {
     
         <button onClick={()=>setClick(!click)} className="modal-close">x</button>
         <ul className="modal-ul">
-        <a href="main page">Home</a>
-        <a href="/About">About Us</a>
-        <a href="main page">Services</a>
-        <a href="main page">Gallery</a>
-        <a href="main page">Videos</a>
+        <Link to="/" onClick={()=>setClick(!click)} >Home</Link>
+        <Link to="/About" onClick={()=>setClick(!click)}>About Us</Link>
+        <Link to="/Service" onClick={()=>setClick(!click)}>Services</Link>
+        <Link to="/Gallery"onClick={()=>setClick(!click)}>Gallery</Link>
+        <Link to="/Videos"onClick={()=>setClick(!click)}>Videos</Link>
+        <Link to="/Contact"onClick={()=>setClick(!click)}>Contact Us</Link>
         
         
         </ul>
@@ -90,12 +97,20 @@ function App() {
     
     </header>
     <main className="main">
+    <Switch>
+    <Route path="/"  exact component={HomePage}  />
+    <Route path="/About" component={AboutPage}  />
+    <Route path="/Gallery" component={GalleryPage}  />
+    <Route path="/Videos" component={VideoPage}  />
+    <Route path="/Contact" component={ContactPage}  />
+    <Route path="/Service" component={ServicePage}  />
+   
     
     
-    <Slider slider={products}/>
-    <About/>
-    <Gallery products={products}/>
-    <Videos products={products}/>
+    
+    </Switch>
+    
+
     
   
     
@@ -114,6 +129,7 @@ function App() {
 
      
     </div>
+    </Router>
   );
 }
 
