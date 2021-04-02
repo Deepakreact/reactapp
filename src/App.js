@@ -77,7 +77,7 @@ function App() {
         }}>
         <Zoom>
     
-        <button onClick={()=>setClick(!click)} className="modal-close">x</button>
+        
         <ul className="modal-ul">
         <Link to="/" onClick={()=>setClick(!click)} >Home</Link>
         <Link to="/About" onClick={()=>setClick(!click)}>About Us</Link>
@@ -88,6 +88,7 @@ function App() {
         
         
         </ul>
+        <button onClick={()=>setClick(!click)} className="modal-close">x</button>
         </Zoom>
       
         
