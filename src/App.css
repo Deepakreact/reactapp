@@ -76,6 +76,9 @@
     display: none;
   }
 }
+.modal {
+}
+
 .modal-ul {
   display: flex;
   position: relative;
@@ -85,9 +88,10 @@
   flex-direction: column;
 }
 .modal-ul a {
-  padding: 30px;
   color: aliceblue;
   text-decoration-line: none;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .modal-close {
   position: absolute;
@@ -96,7 +100,7 @@
   width: 100vw;
   height: auto;
 
-  background-color: grey;
+  background-color: black;
 }
 .logo {
   height: 70px;

@@ -7,5 +7,9 @@
 }
 .about-section p {
   padding: 20px;
+  color: aliceblue;
   box-sizing: border-box;
+}
+.about-section h1 {
+  color: aliceblue;
 }

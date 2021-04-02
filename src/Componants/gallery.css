@@ -5,6 +5,9 @@
   flex-direction: column;
   align-items: center;
 }
+.gallery-headline h1 {
+  color: aliceblue;
+}
 .gallery-list {
   width: 100vw;
   height: auto;

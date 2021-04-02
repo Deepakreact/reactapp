@@ -51,14 +51,16 @@ function App() {
       click&&(
       
 
-        <Modal isOpen={true}  style={{
+        <Modal  className="modal" isOpen={true}  style={{
           overlay: {
             position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundColor: 'rgba(0,0,0,0.8)'
+            
+            
+
+            
+            
+          
+        
           },
           content: {
             position: 'absolute',
@@ -67,7 +69,7 @@ function App() {
             right: '0',
             bottom: '2px',
             border: '1px solid #ccc',
-            background: 'blue',
+            background: 'black',
             overflow: 'hidden',
             WebkitOverflowScrolling: 'touch',
             borderRadius: '4px',
