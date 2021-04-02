@@ -39,6 +39,25 @@
   align-items: center;
   justify-content: center;
 }
+.left-footer {
+  flex: 0.5;
+  display: flex;
+
+  margin-left: 5px;
+}
+.left-footer p {
+  font-size: 10px;
+}
+
+.right-footer {
+  flex: 0.5;
+  display: flex;
+
+  margin-right: 20px;
+}
+.right-footer a {
+  padding: 5px;
+}
 .right-side .menu {
   display: none;
 }
@@ -80,4 +99,28 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.social-links {
+  position: fixed;
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 200px;
+  right: 20px;
+
+  z-index: 2000;
+}
+.social-links a {
+  border-radius: 5px;
+}
+
+.social-links .fb-icon {
+  color: blue;
+}
+.social-links .yt-icon {
+  color: red;
+}
+.social-links .i-icon {
+  color: red;
 }

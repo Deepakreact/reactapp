@@ -1,6 +1,9 @@
 
 import './App.css';
 import React,{useState} from 'react'
+import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import Modal from 'react-modal'
 import Zoom from 'react-reveal/Zoom'
 import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
@@ -96,6 +99,15 @@ function App() {
     </div> 
     
     </header>
+    <ul className="social-links">
+    <a href="fb" className="fb-icon"><FacebookIcon/> </a>
+    <a href="https://www.youtube.com/channel/UC346gtuIUPFYQ0IKAhj1K0Q" className="yt-icon"><YouTubeIcon/> </a>
+    <a href="insta" className="i-icon"> <InstagramIcon/></a>
+    
+    
+    </ul>
+
+
     <main className="main">
     <Switch>
     <Route path="/"  exact component={HomePage}  />
@@ -120,7 +132,18 @@ function App() {
     
     </main>
     <div className="footer">
-   <p>Created & Developed By Deepak Sharma</p> 
+    <div className="left-footer">
+    <p> @ copyright Created & Developed By Deepak Sharma</p>
+    
+    </div>
+    <div className="right-footer">
+    <a href="fb"><FacebookIcon/> </a>
+    <a href="https://www.youtube.com/channel/UC346gtuIUPFYQ0IKAhj1K0Q"><YouTubeIcon/> </a>
+    <a href="insta"><InstagramIcon/> </a>
+    
+    
+    </div>
+   
     
     
     </div>
