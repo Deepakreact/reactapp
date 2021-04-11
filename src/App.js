@@ -54,12 +54,6 @@ function App() {
         <Modal  className="modal" isOpen={true}  style={{
           overlay: {
             position: 'fixed',
-            
-            
-
-            
-            
-          
         
           },
           content: {
@@ -134,22 +128,13 @@ function App() {
     
     
     </main>
-    <div className="footer">
-    <div className="left-footer">
-    <p> @ copyright Created & Developed By Deepak Sharma</p>
     
-    </div>
-    <div className="right-footer">
-    <a href="fb"><FacebookIcon/> </a>
-    <a href="https://www.youtube.com/channel/UC346gtuIUPFYQ0IKAhj1K0Q"><YouTubeIcon/> </a>
-    <a href="insta"><InstagramIcon/> </a>
+
     
-    
-    </div>
    
     
     
-    </div>
+
 
 
 
