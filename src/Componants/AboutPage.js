@@ -28,7 +28,7 @@ function AboutPage() {
         
         
         </Helmet>
-        <h1>This is about page</h1>
+        <h1>About us</h1>
         <div className="lottie" ref={container}>
         
         
@@ -39,7 +39,7 @@ function AboutPage() {
         
         </div>
         <div className="a-image">
-        <img src='gimages/g8.jpg'></img>
+        <img src='gimages/g8.jpg' alt="not available"></img>
         
         </div>
         
