@@ -2,6 +2,8 @@ import React,{useRef,useEffect} from 'react'
 import lottie from 'lottie-web'
 import './cpage.css'
 import {Helmet} from 'react-helmet'
+import Fade from 'react-reveal/Fade'
+
 
 function ContactPage() {
 const container = useRef(null)
@@ -45,17 +47,28 @@ const container2 = useRef(null)
 
         <h1>contact us</h1>
         <div className="main-div">
+        
         <div className="container"  ref={container}>
         
         </div>
+        
+        
+        
+        
+    
+     
+        
+        <Fade right>
+
         <div className="form-div">
+        
         <div className="lottie" ref={container2}>
         
         </div>
         <form className="form">
         <input type="text" placeholder="name"></input>
-        <input type="text" placeholder="name"></input>
-        <input type="text" placeholder="name"></input>
+        <input type="text" placeholder="email"></input>
+        <input type="text" placeholder="message"></input>
         <input type="text" placeholder="name"></input>
         <input type="text" placeholder="name"></input>
         
@@ -64,11 +77,12 @@ const container2 = useRef(null)
         
         
         </div>
+        </Fade>
         
         
         </div>
         
-            
+           
         </div>
     )
 }

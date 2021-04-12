@@ -17,7 +17,7 @@ function Videos({products}) {
         {
             products.map((product)=>
             <li className="video-card">
-            <ReactPlayer url={product.url} controls className="player"  width='400px' height='200px'></ReactPlayer>
+            <ReactPlayer url={product.url} controls className="player"  width='330px' height='200px'></ReactPlayer>
             
             
             </li>)

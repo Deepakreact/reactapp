@@ -5,6 +5,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Modal from 'react-modal'
+import TwitterIcon from '@material-ui/icons/Twitter';
 import Zoom from 'react-reveal/Zoom'
 import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
 
@@ -97,9 +98,10 @@ function App() {
     
     </header>
     <ul className="social-links">
-    <a href="fb" className="fb-icon"><FacebookIcon/> </a>
+    <a href="https://www.facebook.com/djashfilmproductionhouse/" className="fb-icon"><FacebookIcon/> </a>
     <a href="https://www.youtube.com/channel/UC346gtuIUPFYQ0IKAhj1K0Q" className="yt-icon"><YouTubeIcon/> </a>
-    <a href="insta" className="i-icon"> <InstagramIcon/></a>
+    <a href="https://www.instagram.com/djashgroup/" className="i-icon"> <InstagramIcon/></a>
+    <a href="https://www.twitter.com/djashgroup?s=08" className="i-icon"> <TwitterIcon/></a>
     
     
     </ul>
