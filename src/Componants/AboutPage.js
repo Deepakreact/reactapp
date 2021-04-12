@@ -35,7 +35,7 @@ function AboutPage() {
         </div>
         <div className="about-container">
         <div className="a-content">
-        <p>Djash word of entertainment best film production house in meerut produce movies ,also provides dance, acting, modeling and singing traing in the best dance academty in meerut .Our professional dance choreographers provides dance traing for participating in TV reality shows such as DID and Dance +  </p>
+        <p>D-jash word of Entertainment best film production house in Meerut produce movies ,also provides dance, acting, modeling and singing traing in the best dance academty in meerut .Our professional dance choreographers provides dance traning for participating in TV reality shows such as DID and Dance +  </p>
         
         </div>
         <div className="a-image">
