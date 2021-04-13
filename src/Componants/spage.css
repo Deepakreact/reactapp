@@ -1,0 +1,50 @@
+.service {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service h1 {
+  color: aliceblue;
+}
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.left p {
+  color: aliceblue;
+}
+.s-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.s-content {
+  width: 350px;
+  border: 1px solid white;
+
+  display: flex;
+  margin-top: 20px;
+
+  height: auto;
+}
+.slottie {
+  width: 150px;
+  margin: auto;
+
+  height: 100px;
+}
+.slottie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.s-content p {
+  margin-left: 5px;
+  font-size: small;
+}

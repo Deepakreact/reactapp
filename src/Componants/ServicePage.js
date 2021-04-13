@@ -1,10 +1,33 @@
-import React from 'react'
+import React,{useEffect,useRef} from 'react'
 import {Helmet} from 'react-helmet'
+import { services } from '../data/sdata'
+import './spage.css'
+import lottie from 'lottie-web'
+
 
 
 function ServicePage() {
+    const container = useRef(null)
+
+
+    useEffect(() => {
+        lottie.loadAnimation({
+            container:container.current,
+            renderer:"svg",
+            loop:true,
+            autoplay:true,
+            animationData:require("../dance.json")
+
+
+        })
+        
+        return () => {
+            //
+        }
+    }, [])
+
     return (
-        <div>
+        <div className="service">
         <Helmet>
         <title>Services</title>
         <meta name="description" content=""></meta>
@@ -15,6 +38,46 @@ function ServicePage() {
         </Helmet>
 
         <h1>service</h1>
+        <div className="s-container">
+      
+        
+    
+
+        { 
+            
+           
+            services.map((product)=>
+            <div className="s-content">
+            <div className="left">
+            <div className="slottie">
+            <img src={product.timage} alt=""></img>
+            
+            
+            </div>
+            <p>{product.content}</p>
+            <div className="right">
+            <img src={product.image} alt=""></img>
+            
+            </div>
+            
+            </div>
+          
+            
+
+
+
+            </div>
+            
+            
+            )
+         
+        }
+        </div>
+    
+    
+
+        
+    
             
         </div>
     )
