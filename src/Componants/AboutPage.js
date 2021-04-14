@@ -35,7 +35,14 @@ function AboutPage() {
         </div>
         <div className="about-container">
         <div className="a-content">
-        <p>D-jash word of Entertainment best film production house in Meerut produce movies ,also provides dance, acting, modeling and singing traing in the best dance academty in meerut .Our professional dance choreographers provides dance traning for participating in TV reality shows such as DID and Dance +  </p>
+        <p>Djash word of Entertainment best film production house in Meerut established in 2010, founder <span>Mr. Jash Tisavard</span>, produce movies ,
+         dance tv reality shows(Passion of Dance), short movies, video albums, music album,
+         work as a casting agency place new actors in bollywood movies,
+         also provides dance, acting, 
+         modeling and singing training. We are the best dance academy in meerut,
+         our professional dance choreographers provides 
+         dance training of all dance forms
+          bollywood dance,hip hop,crump,kathak, classical, contemporary,jazz,theme dance . </p>
         
         </div>
         <div className="a-image">

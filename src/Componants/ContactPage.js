@@ -68,9 +68,9 @@ const container2 = useRef(null)
         <form className="form">
         <input type="text" placeholder="name"></input>
         <input type="text" placeholder="email"></input>
-        <input type="text" placeholder="message"></input>
-        <input type="text" placeholder="name"></input>
-        <input type="text" placeholder="name"></input>
+        <input type="text" placeholder="phone"></input>
+        <input type="text" placeholder="message" className="message"  maxlength="80"></input>
+        <input type="submit" placeholder="send"></input>
         
         
         </form>

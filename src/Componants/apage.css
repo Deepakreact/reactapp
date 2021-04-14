@@ -19,13 +19,15 @@
 }
 .a-content p {
   color: aliceblue;
+  font-size: small;
+  margin-bottom: 10px;
 }
 .about-container {
   width: 100vw;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .a-image {
   width: 500px;
@@ -38,5 +40,5 @@
   object-position: center;
 }
 .a-content {
-  flex: 0.5;
+  flex: 0.7;
 }
