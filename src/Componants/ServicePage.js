@@ -37,7 +37,7 @@ function ServicePage() {
         
         </Helmet>
 
-        <h1>service</h1>
+        <h1>Services</h1>
         <div className="s-container">
       
         
@@ -54,6 +54,7 @@ function ServicePage() {
             
             
             </div>
+            <h1>{product.title}</h1>
             <p>{product.content}</p>
             <div className="right">
             <img src={product.image} alt=""></img>
