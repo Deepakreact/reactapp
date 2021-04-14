@@ -9,7 +9,10 @@
   padding: 20px;
   color: aliceblue;
   box-sizing: border-box;
+  font-size: 13px;
 }
+
 .about-section h1 {
   color: aliceblue;
+  text-decoration: underline;
 }

@@ -55,9 +55,15 @@
 
   object-fit: cover;
   object-position: top center;
+  position: relative;
 }
 .modal-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 25px;
+  right: 5px;
+  padding: 5px;
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
 }

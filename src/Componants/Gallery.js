@@ -79,7 +79,7 @@ function Gallery({products}) {
 
                 <Zoom>
 
-                <button onClick={()=>setProduct(!product)} className="modal-close">x</button>
+            
                 <div className="product-details">
 
                 
@@ -88,6 +88,7 @@ function Gallery({products}) {
                    
                 
                 </div>
+                <button onClick={()=>setProduct(!product)} className="modal-close">x</button>
                 </Zoom>
                 
                 </Modal>
