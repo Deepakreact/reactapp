@@ -23,8 +23,12 @@ function GalleryPage() {
             <Rotate top left>
             
             <div className="g-image-div">
+            
             <img src={product.image} alt=""></img>
-            <p>{product.title}</p>
+            
+        
+          
+            <p className="g-title">{product.title}</p>
             
             
             </div>

@@ -1,6 +1,6 @@
 export const gproducts=[
     {
-        title:"one",
+        title:"fashion event",
         image:"gimages/g1.jpg"
 
     },
@@ -25,7 +25,7 @@ export const gproducts=[
 
     },
     {
-        title:"six",
+        title:"birthday celebration",
         image:"gimages/g6.jpg"
 
     },
