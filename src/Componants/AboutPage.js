@@ -35,7 +35,7 @@ function AboutPage() {
         </div>
         <div className="about-container">
         <div className="a-content">
-        <p>Djash word of Entertainment best film production house in Meerut established in 2010, founder <span>Mr. Jash Tisavard</span>, produce movies ,
+        <p> word of Entertainment best film production house in Meerut established in 2010, founder <span>Mr. Jash Tisavard</span>, produce movies ,
          dance tv reality shows(Passion of Dance), short movies, video albums, music album,
          work as a casting agency place new actors in bollywood movies,
          also provides dance, acting, 
